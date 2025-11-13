@@ -17,4 +17,7 @@ export class Customer {
 
     @ManyToOne(() => City, { eager: true })
     city: City;
+
+    @Column({ nullable: true })
+    userId: string
 }
