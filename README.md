@@ -63,6 +63,16 @@ O E-commerce Backend é um projeto desenvolvido desenvolvido em sala de aula da 
 - ```PUT /products/:id```
 - ```DELETE /products/:id```
 
+### Favoritos
+- ```GET /favorites```
+- ```GET /favorites?customerId=:customerId```
+- ```POST /favorites```
+
+### Reviews
+- ```GET /reviews```
+- ```GET /reviews?productId=:productId```
+- ```POST /reviews```
+
 ## 🗄 Banco de Dados
 
 O projeto utiliza **PostgreSQL** hospedado no **Supabase** como banco de dados principal, com **TypeORM** como ORM para mapear entidades, criar relações e realizar operações no banco.
