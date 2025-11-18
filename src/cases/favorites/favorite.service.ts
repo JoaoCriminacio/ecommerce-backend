@@ -12,17 +12,17 @@ export class FavoriteService {
 
     findByCustomer(customerId: string) {
         return this.repository.find({
-        where: { customer: { id: customerId } },
-        relations: ['product'],
+            where: { customer: { id: customerId } },
+            relations: ['product']
         });
     }
 
     async toggle(favorite: Favorite) {
         const exists = await this.repository.findOne({
-        where: {
-            customer: { id: favorite.customerId },
-            product: { id: favorite.productId },
-        },
+            where: {
+                customer: { id: favorite.customerId },
+                product: { id: favorite.productId }
+            },
         });
 
         if (exists) {
