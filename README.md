@@ -2,7 +2,7 @@
 
 ## 📌 Sobre
 
-O E-commerce Backend é um projeto desenvolvido desenvolvido em sala de aula da disciplina de Programação, do Centro Universitário Mater Dei - UNIMATER, que é uma API REST. O objetivo do projeto é fornecer todas as operações necessárias para gerenciar categorias, marcas, produtos, clientes e pedidos de um e-commerce completo.
+O E-commerce Backend é um projeto desenvolvido em sala de aula da disciplina de Programação, do Centro Universitário Mater Dei - UNIMATER, que é uma API REST. O objetivo do projeto é fornecer todas as operações necessárias para gerenciar categorias, marcas, produtos, clientes e pedidos de um e-commerce.
 
 ## 🧭 Rotas
 
